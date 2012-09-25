@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+body {
+	background: url(images/loading.gif) no-repeat;
+	background-position: 50% 50%;
+	
+	min-height: 600px;
+	height: 100%;
+	max-height: 100%;
+	
+	background-color: white !important;
+	
+	
+}
+.time-gauge-text {
+  position: relative; top: 35px; left: 0; right: 0;
+  text-align: center; font-size: 2em; font-weight: bold;
+  color: black; font-family: 'Amaranth', sans-serif;
+}
+
+@font-face {
+    font-family: 'icons';
+    src: url("font/icons.eot");
+    src: 
+        url("font/icons.eot?#iefix") format('embedded-opentype'), 
+        url("font/icons.woff") format('woff'), 
+        url("font/icons.ttf") format('truetype'), 
+        url("font/icons.svg#icons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Annie Use Your Telescope';
+    src: url("font/Annie Use Your Telescope.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ 
+/* Let's set and reset some common styles */
+.mb-wrap {
+    width: 100%;
+    margin: 5px auto;
+    padding: 12px 8px;
+    position: relative;
+}
+ 
+.mb-wrap p{
+    margin: 0;
+    padding: 0;
+}
+ 
+.mb-wrap blockquote {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ 
+.mb-wrap cite {
+    font-style: normal;
+}
+
+.mb-style-3 {
+    width: 100%;
+}
+ 
+.mb-style-3 blockquote{
+    background: url(images/old-paper.jpg);
+    padding: 12px 3px;
+    border-radius: 5px;
+    box-shadow: 
+        inset 0 2px 0 rgba(188, 147, 200, 0.7), 
+        -5px -4px 25px rgba(0, 0, 0, 0.3);
+}
+
+.mb-style-3 blockquote:after, 
+.mb-style-3 blockquote:before  {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+ 
+.mb-style-3 blockquote:after  {
+    border-top-color: #EDC57D;
+    border-width: 10px;
+    left: 65%;
+    margin-left: -10px;
+}
+ 
+.mb-style-3 blockquote:before {
+    border-top-color: rgba(0,0,0,0.01);
+    border-width: 11px;
+    left: 65%;
+    margin-left: -11px;
+}
+
+.mb-style-3 blockquote p {
+    font-family: 'Annie Use Your Telescope', serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    line-height: 40px;
+    text-indent: 100px;
+    position: relative;
+}
+
+.mb-style-3 blockquote p:before{
+    content: '\201C';
+    font-family: serif;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    font-size: 120px;
+    top: 0px;
+    left: -105px;
+    color: black;
+    text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+}
+.mb-style-3 .mb-attribution {
+    margin: 6px auto 0px;
+}
+
+.mb-style-3 .quote-info {
+	text-align: right;
+	float: right;
+	height: 70px;
+	
+	padding: 12px 4px 0 0;
+}
+
+.mb-style-3 .mb-thumb {
+	float: right;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+   	box-shadow: 
+        inset 1px 1px 4px rgba(0,0,0,0.5),
+        0 2px 3px rgba(0,0,0,0.6);*/
+}
+.mb-style-3 .mb-author{
+    font-family: 'Alegreya SC', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(188, 147, 200, 1);
+    text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+
+.separation {
+	clear: both;
+	visibility: hidden;
+}
+

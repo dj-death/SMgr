@@ -1,0 +1,17 @@
+{
+  "name": "smgr",
+  "version": "0.0.2",
+  "description": "Studies Intelligence",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "DIDI"
+  ],
+  "author": "Mohamed DIDI",
+  "license": "LGPL"
+}
